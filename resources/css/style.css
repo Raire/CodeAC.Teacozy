@@ -66,20 +66,34 @@ nav a {
   background-color: black;
 }
 
-#featuredtea {
-  padding-top: 25px;
+#teaboxcontainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: 750px;
+  margin: auto;
 }
 
 .teatitle {
-  margin: auto;
+  margin: 20px auto 0px auto;
   width: 100%;
   background-color: black;
 }
 
-#teaboxcontainer {
-  width: 1000px;
-  height: 500px;
-  margin: auto;
+.teabox {
+  display: inline-block;
+  height: 275px;
+  width: 300px;
+  margin: 0px 15px;
+}
+
+.teabox img {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.teatext {
+  margin-top: 10px;
 }
 
 #location {
