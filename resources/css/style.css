@@ -8,6 +8,8 @@ body {
   text-align: center;
 }
 
+/*Header Divider*/
+
 header {
   display: flex;
   position: fixed;
@@ -38,22 +40,49 @@ nav a {
   color: seashell;
 }
 
+/*Content Divider*/
+
 .content {
   margin: auto;
   width: 1200px;
   padding-top: 69px;
+  justify-content: center;
 }
 
-.mission {
+.flexbox {
   display: flex;
   align-items: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  height: 700px;
   width: 100%;
 }
 
-.missiontext {
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+}
+
+.missiontitle {
   margin: auto;
   width: 100%;
   background-color: black;
+}
+
+#featuredtea {
+  padding-top: 25px;
+}
+
+.teatitle {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+#teaboxcontainer {
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+}
+
+#location {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
 }
